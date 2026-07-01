@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easymcpi" 
+version = "0.1.0"    
+description = "Mcpi and minecraftstuff utilits"
+requires-python = ">=3.11"
+authors = [
+  { name = "homkoteam", email = "homkoteam@gmail.com" }
+]
+license = { text = "MIT" }    
+keywords = ["python", "extension", "tool"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+dependencies = [
+    "mcpi",
+    "minecraftstuff"
+]
